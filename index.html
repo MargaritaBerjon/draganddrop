@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Prueba programador web Margarita Berjón</h1></header>
+    <div class="divs-container">
+      <div class="draggable" id="div-1" draggable="true" ondragstart="dragstart(event)" ondragend="dragend(event)">Div 1</div>
+      <div class="draggable" id="div-2" draggable="true" ondragstart="dragstart(event)" ondragend="dragend(event)">Div 2</div>
+      <div class="draggable" id="div-3" draggable="true" ondragstart="dragstart(event)" ondragend="dragend(event)">Div 3</div>
+      <div class="draggable" id="div-4" draggable="true" ondragstart="dragstart(event)" ondragend="dragend(event)">Div 4</div>
+    </div>
+    <div class="div-container" id="container" ondrop="drop(event)" ondragover="dragover(event)"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
